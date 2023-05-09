@@ -36,7 +36,7 @@ variable "sku_name" {
 }
 
  variable "azurerm_windows_web_app" {
-   default     = "joshwa-webapp"
+   default     = "kevin-webapp"
    type        = string
    description = "azurerm_windows_web_app"
  }
