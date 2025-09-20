@@ -23,7 +23,7 @@ It was one of my first Infrastructure-as-Code projects to practice automating Az
    ```bash
    git clone https://github.com/kevingeorge720/Azure-AppService-Windows.git
    cd Azure-AppService-Windows
-
+   
 3. Set your variables:
    - Open `variables.tf` and update the default values, **OR**
    - Create a `terraform.tfvars` file with your own values, for example:
@@ -40,3 +40,4 @@ It was one of my first Infrastructure-as-Code projects to practice automating Az
    terraform init
    terraform plan
    terraform apply
+
